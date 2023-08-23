@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    height: 100vh;
+    width: 100%;
+    background-image: url('assets/netflixback.jpg');
+    background-size: 150% 150%;
+}
+.coverbg{
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.551);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#logo{
+    line-height: 20px;
+    height: 50px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.signin{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 20px;
+    margin-right: 200px;
+}
+.signin button{
+    background-color: red;
+    margin-left: 20px;
+}
+#lang{
+    height: 100%;
+    width: 100%;
+    margin-right: 20px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    outline: 0;
+}
+.langdiv{
+display: flex;
+flex-direction: row;
+border: 1px solid white;
+border-radius: 10px;
+}
+.earchicon{
+    font-size: 20px;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 5px;
+}
+.headings{
+    justify-content: center;
+    align-items: center;
+    float: left;
+    margin-top: 15%;
+     width: 100%;
+}
+.names{
+    color: white;
+    margin-bottom: 30px;   
+}
+.names1{
+    font-weight: 30px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.names2{
+    font-size: 25px;
+}
+#getstarted{
+    height: 50px;
+    width: 35%;
+    display: flex;
+}
+#searchinp{
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+    margin-right: 20px;
+}
+#getstarted button{
+width: 30%;
+background-color: red;
+font-size: 20px;
+font-weight: bolder;
+color: white;
+}
+@media (max-width:950px) {
+    .signin {
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+    #logo{
+        margin-left: 20px;
+    }
+    .bg{
+        background-size: 100% 100%;
+    }
+    #getstarted button{
+        font-size: 10px;
+        width: 100px;
+        border-radius: 10px;
+        width: 200px;
+    }
+    #searchinp{
+        display: none;
+    }
+}
+#line{
+    width: 100%;
+    height: 7px;
+    float: left;
+    background-color: rgb(55, 55, 55);
+}
+.screen{
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding: 2%;
+    background-color: black;
+}
+.screen h1{
+    font-size:50px;
+    font-weight: bolder;
+    margin-top: 150px;  
+    color: white;
+}
+.screen1{
+    align-items: center;
+    padding-left: 10%;
+}
+.screen h6{
+    font-size: 20px;
+    color: white;
+}
+#videoframe{
+    height: 400px;
+    width: 600px;
+    background-image: url('assets/tv.png');
+}
+#video{
+    z-index: 10;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+#videoframe1{
+    height: 400px;
+    width: 600px;
+    background-image: url('assets/mobile-0819.jpg');
+}
+#videoframe2{
+    height: 400px;
+    width: 600px;
+    background-image: url('assets/kids.png');
+}
+.fandq{
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    background-color: black !important;
+    float: left;
+    padding-bottom: 50px;
+}
+.fandq h1{
+    margin-top: 100px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 50px;
+}
+#demo{
+    color: black;
+    margin-top: 5px;
+}
+.list-group{
+    background-color: white;
+}
+.btn-light{
+    outline: 0 !important;
+    border: 0 !important;
+}
+.inputbox{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+.membershipname{
+    color: white;
+    margin-top: 50px;
+}
+#emailbox{
+    height: 50px;
+    width: 40%;
+    background-color: transparent;
+    margin-right: 5px;
+    border: 0.5px solid white;
+    font-size: 15px;
+}
+.Subscribe{
+    height: 50px;
+    background-color: red;
+    font-size: bolder;
+    font-size: 20px;
+}
+.footer{
+    height: 270px;
+    width: 33.33%;
+    float: left;
+    padding-top: 50px;
+    color: white;
+    background-color: black;
+}
+.footerdiv{
+    background-color: black;
+}
+.footerheading{
+    margin-left: 50px;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px !important;
+    background-color: black;
+}
+.footerdivfirst{
+    height: auto;
+    width: 100%;
+    float: left;
+    background-color: black;
+}
+.footer ul{
+    margin-left: 30%;
+}
+.footer ul li{
+    margin-top: 5px;
+}
+.langdiv2{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 170px;
+    height: 30px;
+    margin-top: 20px;
+}
+.copy{
+    margin-top: 20px;
+    color: silver;
+}
+.rigion{
+    margin-top: 10px;
+}
